@@ -13,6 +13,7 @@ expo-env.d.ts
 .kotlin/
 *.orig.*
 *.jks
+*.keystore
 *.p8
 *.p12
 *.key
@@ -38,4 +39,16 @@ yarn-error.*
 
 # generated native folders
 /ios
-/android
+
+# Android generated files (keep Android source/config)
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# iOS generated files
+ios/Pods/
+ios/build/
+
+# Editor
+.vscode/
